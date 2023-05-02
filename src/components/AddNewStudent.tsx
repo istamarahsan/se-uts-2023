@@ -76,7 +76,7 @@ const AddNewStudent = ({ onSubmit }: AddNewStudentProps) => {
       >
         <Avatar sx={{ m: 1, bgcolor: "secondary.main" }}></Avatar>
         <Typography component="h1" variant="h5">
-          Add New Student
+          Add Student Profile
         </Typography>
         <Box component="form" noValidate sx={{ mt: 3 }}>
           <Grid container spacing={2}>
