@@ -1,22 +1,7 @@
-import { Add, Check, Upload } from "@mui/icons-material";
-import {
-  Avatar,
-  Box,
-  Button,
-  Grid,
-  TextField,
-  Typography,
-  Fab,
-} from "@mui/material";
-import Container from "@mui/material/Container";
-import { DatePicker } from "@mui/x-date-pickers";
 import { type NextPage } from "next";
 import Head from "next/head";
-import { DateTime } from "luxon";
 import { useState } from "react";
-import MuiPhoneNumber from "mui-phone-number";
 import type {} from "@mui/x-date-pickers/themeAugmentation";
-import Image from "next/image";
 import FormSubmitted from "~/components/FormSubmitted";
 import AddNewStudent from "~/components/AddNewStudent";
 
